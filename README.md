@@ -3,7 +3,7 @@ A Credit Card Number Validator - creation prompted by a Codecademy challenge pro
 
 Project completed November 18, 2020
 
-If I've learned anything from completing this project, it was to use the .forEach() method instead of "for" loops whenever possible.
+If I've learned anything from completing this project, it's to use the .forEach() method instead of "for" loops whenever possible.
 
 Sharing as a big thank you to Codecademy for helping me to learn JavaScript! 
 
