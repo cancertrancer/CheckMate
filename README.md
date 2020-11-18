@@ -3,7 +3,8 @@ A Credit Card Number Validator - creation prompted by a Codecademy challenge pro
 
 Project completed November 18, 2020
 
-Sharing as a big thank you to Codecademy for helping me learn JavaScript! 
-Excited to learn from other completed projects posted here.
+If I've learned anything from completing this project, it was to use the .forEach() method instead of "for" loops whenever possible.
 
-Run document in Node on the command line to see it in action!
+Sharing as a big thank you to Codecademy for helping me to learn JavaScript! 
+
+Run document in Node on the command line to see it in action.
