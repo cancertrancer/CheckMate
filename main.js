@@ -23,7 +23,7 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3]
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5]
 
 
-// Add your functions below:
+//Function for validating a credit card using the Luhn algorithm:
 const validateCred = array => {
   const newValues = [];
   array.reverse();
@@ -49,7 +49,9 @@ const validateCred = array => {
   }
 }
 
-console.log(validateCred(batch[8]));
+//Test functions:
+console.log(validateCred(batch[1])); //should print true
+console.log(validateCred(invalid1)); //should print false
 
 const invalidCards = [];
 
@@ -61,8 +63,9 @@ const findInvalidCards = nestedArr => {
   }); 
 }
 
-findInvalidCards(batch);
-console.log(invalidCards);
+//To identify invalid cards:
+findInvalidCards(batch); 
+console.log(invalidCards); //should print nested array of 7 cards
 
 
 const companiesArray = [];
@@ -91,5 +94,6 @@ const invalidCardCompanies = nestedArr => {
  });
 }
 
+//To identify which companies have sent invalid cards:
 invalidCardCompanies(invalidCards);
 console.log(companiesArray);
